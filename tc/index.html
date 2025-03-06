@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea Canteen</title>
     <link rel="stylesheet" href="../styles/theme.css?v=040325">
-    <link rel="stylesheet" href="../styles/common.css?v=040325">
+    <link rel="stylesheet" href="../styles/common.css?v=050325">
     <script src="../scripts/theme.js?=040325"></script>
     <script src="../common/categoryNavigator.js?v=040325"></script>
     <script src="../common/menuRenderer.js?=040325"></script>
     <script src="./TcMenu.js?v=040325"></script>
 </head>
 <body>
+    <div class="offline-bar hidden" id="offlinediv">
+        You are offline.
+    </div>
+
     <div class="container">
         <div class="header">
             <h1>Tea Canteen</h1>
@@ -48,6 +52,15 @@
             // Render the menu with data from canteen1Menu.js
             MenuRenderer.renderMenu(canteenName, timings, menuCategories);
         });
+        async function checkOfflineStatus() {
+            const temp = document.querySelector('#offlinediv');
+            try {
+                await fetch('../offlinetest.api?' + Date.now());
+            } catch (error) {
+                temp.classList.remove('hidden'); // Show the offline message
+            }
+        }
+        checkOfflineStatus();
     </script>
 </body>
 </html>
