@@ -2,7 +2,6 @@ const CACHE_NAME = 'v4';
 
 const FILES_TO_CACHE = [
   '/',
-  '/stalls',
   '/index.html',
   './scripts/theme.js',
   './scripts/menu.js',
