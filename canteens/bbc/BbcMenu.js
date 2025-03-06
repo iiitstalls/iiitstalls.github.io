@@ -1,6 +1,6 @@
 const canteenName = "BBC Canteen"
 const timings = "8 AM - 7 PM"
-const categories = [
+const menuCategories = [
     {
         name: "Dosa",
         items: [
