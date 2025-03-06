@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Canteen</title>
+    <link rel="stylesheet" href="../../styles/theme.css?v=040325">
+    <link rel="stylesheet" href="../../styles/common.css?v=040325">
+    <script src="../../scripts/theme.js?=040325"></script>
+    <script src="../../common/categoryNavigator.js?v=040325"></script>
+    <script src="../../common/menuRenderer.js?=040325"></script>
+    <script src="./TcMenu.js?v=040325"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tea Canteen</h1>
+            <button class="theme-toggle" onclick="ThemeManager.toggle()">
+                <svg class="toggle" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="lightIcon">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                </svg>
+                <svg class="toggle hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="darkIcon">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <button class="back-btn" onclick="window.location.href='../../'">← Back to Canteens</button>
+        
+        <div id="menuContainer">
+            <!-- Menu will be rendered here -->
+        </div>
+        
+        <div class="category-navigator collapsed" id="categoryNavigator">
+            <div class="category-nav-list"></div>
+            <h4 style="cursor: pointer;" onclick="CategoryNavigator.toggle()">
+                <img src="https://icon-library.com/images/menu-icon/menu-icon-29.jpg" alt="Menu" class="menu-icon" id="menuIcon">
+            </h4>
+        </div>
+
+        <div id="feedback">
+            <a href="/stalls/feedback" class="feedback-btn">Feedback Form</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Render the menu with data from canteen1Menu.js
+            MenuRenderer.renderMenu(canteenName, timings, menuCategories);
+        });
+    </script>
+</body>
+</html>
