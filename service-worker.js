@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v4';
+const CACHE_NAME = 'v0.5';
 
 const FILES_TO_CACHE = [
   '/',
@@ -7,16 +7,16 @@ const FILES_TO_CACHE = [
   './scripts/menu.js',
   './common/categoryNavigator.js',
   './common/menuRenderer.js',
-  './canteens/bbc/BbcMenu.js',
-  './canteens/bbc/',
-  './canteens/jc/JcMenu.js',
-  './canteens/jc/',
-  './canteens/moc/MocMenu.js',
-  './canteens/moc/',
-  './canteens/tc/TcMenu.js',
-  './canteens/tc/',
-  './canteens/devids/DevidsMenu.js',
-  './canteens/devids/',
+  './bbc/BbcMenu.js',
+  './bbc/',
+  './jc/JcMenu.js',
+  './jc/',
+  './moc/MocMenu.js',
+  './moc/',
+  './tc/TcMenu.js',
+  './tc/',
+  './devids/DevidsMenu.js',
+  './devids/',
   './styles/common.css',
   './styles/theme.css'
 ];
