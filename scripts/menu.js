@@ -5,35 +5,35 @@ const canteensData = [
         name: "Devid's Canteen",
         description: "Late night cravings",
         timings: "6 PM - 2 AM",
-        path: "./canteens/devids/"
+        path: "./devids/"
     },
     {
         id: "jc",
         name: "Juice Canteen",
         description: "Juices & Shakes",
         timings: "8 AM - 6 PM",
-        path: "./canteens/jc/"
+        path: "./jc/"
     },
     {
         id: "moc",
         name: "Ministry of Cheese",
         description: "Cheese Snacks",
         timings: "2 PM - 9 PM",
-        path: "./canteens/moc/"
+        path: "./moc/"
     },
     {
         id: "bbc",
         name: "Basket Ball Canteen",
         description: "Morning Dosas and Maggi",
         timings: "10 AM - 8 PM",
-        path: "./canteens/bbc/"
+        path: "./bbc/"
     },
     {
         id: "tc",
         name: "Tea Canteen",
         description: "Tea and Drinks",
         timings: "6 PM - 2 AM",
-        path: "./canteens/tc/"
+        path: "./tc/"
     }
 ];
 
