@@ -9,7 +9,7 @@
 	"description":"Canteen Menus",
 	"icons":[
 	{
-	"src":"./menu.png",
+	"src":"./static/menu.png",
 	"type":"image/png"
 	}
 ]
