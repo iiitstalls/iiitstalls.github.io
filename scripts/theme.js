@@ -23,6 +23,7 @@ const ThemeManager = {
     }
 };
 
+
 // Initialize theme when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     ThemeManager.init();
