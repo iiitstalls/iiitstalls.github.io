@@ -1,0 +1,16 @@
+{
+	"name":"IIIT Canteens",
+	"short_name":"Canteens",
+	"start_url":"index.html",
+	"display":"standalone",
+	"background_color":"#5900b3",
+	"theme_color":"black",
+	"scope": ".",
+	"description":"Canteen Menus",
+	"icons":[
+	{
+	"src":"./menu.png",
+	"type":"image/png"
+	}
+]
+}
