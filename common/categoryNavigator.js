@@ -23,9 +23,9 @@ const CategoryNavigator = {
     toggle() {
         const pic = document.querySelector('#menuIcon');
         if (pic) {
-            pic.src = pic.src.includes('menu-icon') 
-                ? 'https://icon-library.com/images/close-icon/close-icon-29.jpg' 
-                : 'https://icon-library.com/images/menu-icon/menu-icon-29.jpg';
+            pic.src = pic.src.includes('menu') 
+                ? '../static/cross.png' 
+                : '../static/menu.png';
         }
         
         const navigator = document.getElementById('categoryNavigator');

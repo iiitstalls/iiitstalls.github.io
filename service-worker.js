@@ -18,7 +18,9 @@ const FILES_TO_CACHE = [
   './canteens/devids/DevidsMenu.js',
   './canteens/devids/',
   './styles/common.css',
-  './styles/theme.css'
+  './styles/theme.css',
+  './static/cross.png',
+  './static/menu.png',
 ];
 
 self.addEventListener('install', (event) => {
