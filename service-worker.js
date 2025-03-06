@@ -8,8 +8,16 @@ const FILES_TO_CACHE = [
   './scripts/menu.js',
   './common/categoryNavigator.js',
   './common/menuRenderer.js',
-  './canteens/canteen1/canteen1Menu.js',
-  './canteens/canteen1/index.html',
+  './canteens/canteens/bbc/BbcMenu.js',
+  './canteens/canteens/bbc/',
+  './canteens/canteens/jc/JcMenu.js',
+  './canteens/canteens/jc/',
+  './canteens/canteens/moc/MocMenu.js',
+  './canteens/canteens/moc/',
+  './canteens/canteens/tc/TcMenu.js',
+  './canteens/canteens/tc/',
+  './canteens/canteens/devids/DevidsMenu.js',
+  './canteens/canteens/devids/',
   './styles/common.css',
   './styles/theme.css'
 ];
