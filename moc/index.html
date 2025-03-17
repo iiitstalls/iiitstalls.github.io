@@ -52,15 +52,16 @@
             // Render the menu with data from canteen1Menu.js
             MenuRenderer.renderMenu(canteenName, timings, menuCategories);
         });
-        async function checkOfflineStatus() {
+        document.addEventListener("DOMContentLoaded", () => {
             const temp = document.querySelector('#offlinediv');
-            try {
-                await fetch('../offlinetest.api?' + Date.now());
-            } catch (error) {
-                temp.classList.remove('hidden'); // Show the offline message
-            }
-        }
-        checkOfflineStatus();
+            setTimeout(async () => {
+                try {
+                    await fetch('./offlinetest.api?' + Date.now());
+                } catch (error) {
+                    temp.classList.remove('hidden');
+                }
+            }, 0);
+        });
     </script>
 </body>
 </html>
