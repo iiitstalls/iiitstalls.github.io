@@ -14,7 +14,7 @@
 			"purpose": "any"
 		},
 		{
-			"src": "./static/menu.png",
+			"src": "./static/menu_192.png",
 			"type": "image/png",
 			"sizes": "192x192",
 			"purpose": "any"
@@ -30,8 +30,7 @@
 	"screenshots": [
 		{
 			"src": "./static/screenshot1.png",
-			"type": "image/png",
-			"sizes": "540x720"
+			"type": "image/png"
 		}
 	],
 	"lang": "en-US",
