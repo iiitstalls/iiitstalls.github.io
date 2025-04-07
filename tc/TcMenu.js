@@ -1,5 +1,5 @@
 const canteenName = "Tea Stall";
-const timings = "4 PM - 2 AM";
+const timings = "6 PM - 2 AM";
 const menuCategories = [
     {
         name: "Beverages",

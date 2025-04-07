@@ -1,5 +1,5 @@
 const canteenName = "Ministry of Cheese";
-const timings = "2 PM - 6 PM";
+const timings = "2 PM - 7 PM";
 
 const menuCategories = [
     {

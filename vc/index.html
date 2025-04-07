@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ministry of Cheese</title>
+    <title>Vindhya Canteen</title>
     <link rel="stylesheet" href="../styles/theme.css?v=070425040325">
     <link rel="stylesheet" href="../styles/common.css?v=070425060325">
     <script src="../scripts/theme.js?=040325"></script>
     <script src="../common/categoryNavigator.js?v=070425040325"></script>
     <script src="../common/menuRenderer.js?=040325"></script>
-    <script src="./MocMenu.js?v=070425040325"></script>
+    <script src="./vcMenu.js?v=070425040325"></script>
 </head>
 <body>
     <div class="offline-bar hidden" id="offlinediv">
@@ -18,7 +18,7 @@
 
     <div class="container">
         <div class="header">
-            <h1>Ministry of Cheese</h1>
+            <h1>Vindhya Canteen</h1>
             <button class="theme-toggle" onclick="ThemeManager.toggle()">
                 <svg class="toggle" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="lightIcon">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
@@ -49,7 +49,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Render the menu with data from canteen1Menu.js
             MenuRenderer.renderMenu(canteenName, timings, menuCategories);
         });
         document.addEventListener("DOMContentLoaded", () => {

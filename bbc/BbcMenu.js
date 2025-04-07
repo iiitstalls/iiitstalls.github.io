@@ -1,5 +1,5 @@
 const canteenName = "BBC Canteen"
-const timings = "8 AM - 7 PM"
+const timings = "8 AM - 6 PM"
 const menuCategories = [
     {
         name: "Dosa",
