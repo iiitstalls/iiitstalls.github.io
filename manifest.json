@@ -1,16 +1,40 @@
 {
-	"name":"IIIT Canteens",
-	"short_name":"Canteens",
-	"start_url":"index.html",
-	"display":"standalone",
-	"background_color":"#000000",
-	"theme_color":"black",
+	"name": "IIIT Canteens",
+	"short_name": "Canteens",
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#000000",
 	"scope": ".",
-	"description":"Canteen Menus",
-	"icons":[
-	{
-	"src":"./static/menu.png",
-	"type":"image/png"
-	}
-]
+	"description": "Canteen Menus",
+	"icons": [
+		{
+			"src": "./static/menu.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any"
+		},
+		{
+			"src": "./static/menu.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any"
+		},
+		{
+			"src": "./static/menu.png",
+			"type": "image/png",
+			"sizes": "144x144",
+			"purpose": "maskable"
+		}
+	],
+	"categories": ["food", "utilities"],
+	"screenshots": [
+		{
+			"src": "./static/screenshot1.png",
+			"type": "image/png",
+			"sizes": "540x720"
+		}
+	],
+	"lang": "en-US",
+	"prefer_related_applications": false
 }
