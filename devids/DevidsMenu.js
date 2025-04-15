@@ -56,7 +56,7 @@ const menuCategories = [
 			{ name: "Brownie", price: 60, type: "Veg" },
 			{ name: "Brownie with Vanilla", price: 70, type: "Veg" },
 			{ name: "Brownie with Vanilla and Chocolate Sauce", price: 100, type: "Veg" },
-			{ name: "Spl. Kaju Bread Omelette", price: 100, type: "Veg" }
+			{ name: "Spl. Kaju Bread Omelette", price: 100, type: "Non-Veg" }
 		]
 	},
 	{
